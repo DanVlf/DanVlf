@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Muj web</title>
+    <link rel='icon' href='/images/icons8-marker-d-50.png' type='image/x-icon/' src=''>
+    <title>Daniel Volf</title>
 </head>
 
 
@@ -86,8 +87,9 @@
   .modal2-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    border: 0px solid #888;
     width: 80%;
   }
   
@@ -144,7 +146,113 @@
     <!-- modal2 content -->
     <div class="modal2-content">
       <span class="close2">&times;</span>
-      <p>Some text in the modal2..</p>
+       <div id="obsahpopup">
+          
+         
+
+            <style>
+              div.gallery {
+                border: 0px solid #ccc;
+              }
+              
+              div.gallery:hover {
+                border: 0px solid #777;
+              }
+              
+              div.gallery img {
+                width: 100%;
+                height: auto;
+              }
+              
+              div.desc {
+                padding: 15px;
+                text-align: center;
+              }
+              
+              * {
+                box-sizing: border-box;
+              }
+              
+              .responsive {
+                padding: 0 6px;
+                float: left;
+                width: 24.99999%;
+              }
+              
+              @media only screen and (max-width: 700px) {
+                .responsive {
+                  width: 49.99999%;
+                  margin: 6px 0;
+                }
+              }
+              
+              @media only screen and (max-width: 500px) {
+                .responsive {
+                  width: 100%;
+                }
+              }
+              
+              .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              </style>
+              </head>
+              <body>
+              
+              <h2>Nejaktuálnější fotografie</h2>
+              <br><br>
+              
+              
+              
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="img_5terre.jpg">
+                    <img src="/images/P1190145.jpg" alt="Cinque Terre" width="600" height="400">
+                  </a>
+                  
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="img_5terre.jpg">
+                    <img src="/images/P1190561.jpg" alt="Cinque Terre" width="600" height="400">
+                  </a>
+                  
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="img_5terre.jpg">
+                    <img src="/images/P1190344.jpg" alt="Cinque Terre" width="600" height="400">
+                  </a>
+                  
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_blank" href="img_5terre.jpg">
+                    <img src="/images/P1190308.jpg" alt="Cinque Terre" width="600" height="400">
+                  </a>
+                  
+                </div>
+              </div>
+              
+              
+              <div class="clearfix"></div>
+              
+              <div style="padding:6px;">
+                <br>
+                <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+                <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+              </div>
+              
+
+      </div>
     </div>
   
   </div>
@@ -254,7 +362,7 @@
         <!-- modal1 content -->
         <div class="modal1-content">
           <span class="close1">&times;</span>
-          <p>Some text in the modal1..</p>
+          <p> </p>
         </div>
       
       </div>
