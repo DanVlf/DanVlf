@@ -671,6 +671,13 @@ z-index: -1;
         font-size: 3rem;
         
     }   
+    #contact .contact{
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 4%;
+        
+        
+    }	
 }
 @media only screen and (max-width: 1920px){
     #services button{
