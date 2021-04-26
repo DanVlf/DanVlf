@@ -274,6 +274,8 @@ z-index: -1;
 
 /* Services section*/
 
+
+
 #services .services{
     flex-direction: column;
     text-align: center;
@@ -281,6 +283,12 @@ z-index: -1;
     margin-top: 100px;
     padding: 100px 0;
    
+}
+#services button{
+    padding: 0;
+    border: none;
+    background: none;
+    margin-right: 20%;
 }
 
 #services .section-title span{
@@ -294,7 +302,7 @@ z-index: -1;
     font-weight: 300;
     letter-spacing: .05rem;
     text-align: center;
-    max-margin: 0 auto; 
+    margin: 0 auto; 
 }
 #services .services-bottom{
     display: flex;
@@ -424,6 +432,7 @@ z-index: -1;
     text-transform: uppercase;
 }
 
+
 /* End Service Section*/
 
 
@@ -498,6 +507,8 @@ z-index: -1;
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
+    
+    
 }
 #contact .contact-items{
     width: 450px;
@@ -659,9 +670,23 @@ z-index: -1;
     #hero h1{
         font-size: 3rem;
         
-    }
-  
-
-    
+    }   
 }
-
+@media only screen and (max-width: 1920px){
+    #services button{
+        padding: 0;
+        border: none;
+        background: none;
+        margin: 0 auto;
+        padding-left: 8%;
+    }
+}
+@media only screen and (max-width: 1919px){
+    #services button{
+        padding: 0;
+        border: none;
+        background: none;
+        margin: 0 auto;
+        padding-left: 0%;
+    }
+} 
