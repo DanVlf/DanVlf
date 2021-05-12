@@ -9,8 +9,16 @@ html{
     font-size: 10x;
     font-family: 'Montserrat' , sans-serif ;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    
 
 }
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
 a{
     text-decoration: none;
 
@@ -446,6 +454,16 @@ z-index: -1;
     text-align: left;
     padding-top: 2%;
 }
+.thumbnail {
+    transition: transform .2s;  
+}
+  
+.thumbnail:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.2);
+    
+}
 
 /* End Service Section*/
 
@@ -715,13 +733,12 @@ z-index: -1;
         font-size: 20px;
         font-weight: bold;
         padding-right: 20px;
-      }
-      html, body {
-        overflow-x: hidden;
-      }
-      body {
-        position: relative
-      }
+    }
+    #services .textweb{
+        padding-left: 10%;
+    }
+   
+    
   
 }
 @media only screen and (max-width: 1920px){
