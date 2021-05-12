@@ -436,14 +436,17 @@ z-index: -1;
 }
 .nadpismodal{
     text-align: center;
+    margin-top: 0px;
 }
 #services .textweb{
     text-align: center;
 }
 #services .webodkaz{
-    padding-right: 80%;
+    font-size: 17px;
+    text-align: left;
     padding-top: 2%;
 }
+
 /* End Service Section*/
 
 
@@ -689,6 +692,30 @@ z-index: -1;
         
         
     }
+    #header h1{
+        font-size: 1.5rem;
+    }
+    #contact .section-title{
+        padding-right: 10%;
+    }
+    #services .webodkaz{
+        font-size: 0.8rem;
+        text-align: left;
+        padding-top: 10%;
+    }
+    .close1 {
+        color: #aaaaaa;
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .close2 {
+        color: #aaaaaa;
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        padding-right: 20px;
+      }
 }
 @media only screen and (max-width: 1920px){
     #services button{
