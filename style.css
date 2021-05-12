@@ -716,13 +716,13 @@ z-index: -1;
         font-weight: bold;
         padding-right: 20px;
       }
-	html, body {
-	  overflow-x: hidden;
-	}
-	body {
-	  position: relative
-	}
-
+      html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+  
 }
 @media only screen and (max-width: 1920px){
     #services button{
